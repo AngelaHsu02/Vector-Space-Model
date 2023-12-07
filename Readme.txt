@@ -1,12 +1,12 @@
-1(1). TF-IDF Weighting (Raw TF in course PPT) + Cosine Similarity
-1(2). TF-IDF Weighting (Raw TF in course PPT) + Euclidean Distance
-2. Relevance Feedback
-執行VectorSpace.py會印出Cosine Similarity Ranking、Euclidean Distance Ranking、Relevance Feedback Ranking
 
+1.目的：實作IR系統以實現不同Ranking方法，檢索前10個結果和分數。
+(1)TF-IDF Weighting + Cosine Similarity
+(2)TF-IDF Weighting + Euclidean Distance
+(3)Relevance Feedback = [1 * original query + 0.5 * feedback query]
 
-3. Vector Space Model with Different Scheme & Similarity Metrics in Chinese and English
-執行VectorSpaceChinese.py
+2.方法：使用reuters.com的7,875條英語新聞，每個文件均以其新聞 ID 命名，並包含相應的新聞標題和內容。
 
-
-4 Evaluation IR system
-執行eval.py
+3.指標評估實作IR系統。
+(1)Recall@10
+(2)MAP@10
+(3)MRR@10
